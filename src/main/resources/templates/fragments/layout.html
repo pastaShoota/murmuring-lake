@@ -4,7 +4,7 @@
     <title>SAML authenticated App</title>
     <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="/stylesheets/main.css" />
-    <link rel="icon" type="image/png" th:href="@{/images/ellipse4168.png}" />
+    <link rel="icon" type="image/png" th:href="@{/images/2-ball.png}" />
 </head>
 
 <body>
@@ -18,7 +18,7 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-user"></span>
                     <span sec:authentication="name">bob</span></a>
                     <ul class="dropdown-menu" role="menu">
-                    	<li><a th:href="@{/logout}">Sign out</a></li>
+                    	<li><a th:href="@{/logout}">Sign out&nbsp;<span style="margin-left:10px;" class="glyphicon glyphicon-log-out"></span></a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
